@@ -33,16 +33,15 @@ then enter your partner's username.
 
 To accept access to the Owner's repo, the Collaborator
 needs to go to [https://github.com/notifications](https://github.com/notifications) 
-or check for email notification. Once there she can accept access to the Owner's repo.
+or check for email notification, and then accept access to the Owner's repo.
 
-Next, the Collaborator needs to download a copy of the Owner's repository to her
+Next, the Collaborator needs to download a copy of the Owner's repository to their
 machine. This is called "cloning a repo". 
 
-The Collaborator doesn't want to overwrite her own version of `planets.git`, so 
-needs to clone the Owner's repository to a different location than her own 
-repository with the same name.
+The Collaborator doesn't want to overwrite their own version of `planets.git`, so 
+needs to clone the Owner's repository to a different location.
  
-To clone the Owner's repo into her `Desktop` folder, the Collaborator enters:
+To clone the Owner's repo into their `Desktop` folder, the Collaborator enters:
 
 ~~~
 $ git clone git@github.com:vlad/planets.git ~/Desktop/vlad-planets
@@ -58,7 +57,7 @@ Make sure to navigate to the `Desktop` folder first.
 
 ![After Creating Clone of Repository](../fig/github-collaboration.svg)
 
-The Collaborator can now make a change in her clone of the Owner's repository,
+The Collaborator can now make a change in their clone of the Owner's repository,
 exactly the same way as we've been doing before:
 
 ~~~
@@ -175,7 +174,7 @@ GitHub) are back in sync.
 >
 > In practice, it is good to be sure that you have an updated version of the
 > repository you are collaborating on, so you should `git pull` before making
-> our changes. The basic collaborative workflow would be:
+> your changes. The basic collaborative workflow would be:
 >
 > * update your local repo with `git pull origin main`,
 > * make your changes and stage them with `git add`,
@@ -183,7 +182,7 @@ GitHub) are back in sync.
 > * upload the changes to GitHub with `git push origin main`
 >
 > It is better to make many commits with smaller changes rather than
-> of one commit with massive changes: small commits are easier to
+> one commit with massive changes: small commits are easier to
 > read and review.
 {: .callout}
 
